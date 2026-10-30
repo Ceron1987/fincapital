@@ -1,0 +1,59 @@
+===========================================================
+  FINCAPITAL — SISTEMA INTERNO · ACCESO
+===========================================================
+
+TU BASE DE DATOS YA ESTÁ CONECTADA Y FUNCIONANDO.
+Proyecto Supabase: finruta-inteligente (ngsevgxaundgvzebqktk)
+
+-----------------------------------------------------------
+  TU CUENTA (GERENTE)
+-----------------------------------------------------------
+  Correo:      jcceronceron789@gmail.com
+  Contraseña:  FinCap-M8Mz4qZa3m   (TEMPORAL — cámbiala)
+
+  * Ya tiene rol GERENTE (ve todo, autoriza, concilia, config).
+  * Cambia la contraseña entrando a Supabase > Authentication,
+    o desde el sistema cuando agreguemos "cambiar contraseña".
+
+-----------------------------------------------------------
+  CÓMO ARRANCARLO (en tu compu)
+-----------------------------------------------------------
+  1. Descomprime el proyecto.
+  2. Abre PowerShell en la carpeta app/
+  3. npm install
+  4. npm run dev
+  5. Abre http://localhost:3000
+  6. Entra con tu correo y la contraseña de arriba.
+
+  El .env.local YA viene con la URL y la llave de tu Supabase.
+  No tienes que configurar nada más para que funcione.
+
+-----------------------------------------------------------
+  QUÉ YA FUNCIONA DE VERDAD (guarda en tu base real)
+-----------------------------------------------------------
+  - Login con tu cuenta.
+  - Alta de clientes (botón + Nuevo cliente).
+  - Nueva solicitud de crédito con monto y PLAZO (12-36 meses).
+  - Autorización del gerente (verde/rojo) — transaccional.
+  - Registrar pago + conciliar (gerente).
+  - Configuración EDITABLE y se guarda: montos, plazo,
+    antigüedad mínima, tarifa, meta, contacto.
+  - Importar cartera desde Excel/CSV.
+  - Reportes y bitácora de auditoría.
+
+  La base arranca LIMPIA (sin datos ficticios). Lo que captures
+  es real y queda guardado.
+
+-----------------------------------------------------------
+  FALTA (lo siguiente que podemos hacer)
+-----------------------------------------------------------
+  - Crear a los 4 asesores (te lo hago o lo haces en Usuarios).
+  - Subida real de documentos (INE, comprobante) a Storage.
+  - Rutas con mapa real (hoy en modo demo).
+  - Conectar la landing/Meta Ads para que los leads entren solos.
+  - Desplegar en Vercel para entrar desde cualquier lado
+    (hoy corre en tu compu con npm run dev).
+
+===========================================================
+  FinCapital · Tu futuro financiero en buenas manos
+===========================================================
